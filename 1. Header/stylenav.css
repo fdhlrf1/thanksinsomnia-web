@@ -1,0 +1,78 @@
+@font-face{
+    font-family: rubiklight;
+    src: url(../font/rubikfont/Rubik-Light.ttf);
+}
+@font-face {
+    font-family: rubikmedium;
+    src: url(../font/rubikfont/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family: rubikbold;
+    src: url(../font/rubikfont/Rubik-Bold.ttf);
+}
+@font-face {
+    font-family: rubiksemibold;
+    src: url(../font/rubikfont/Rubik-SemiBold.ttf);
+}
+@font-face {
+    font-family: rubikregular;
+    src: url(../font/rubikfont/Rubik-Regular.ttf);
+}
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+/*------header-------*/
+.menu{
+    height: 63px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 8px rgba(211, 207, 207, 0.8);
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 8px 0px 30px 60px;
+    text-align:left;
+    letter-spacing: 3px;
+}
+.tsheader{
+    width: 250px;
+    height: 30px;
+    padding: 20px 200px 0 0;
+}
+
+#choice{
+    padding: 20px 400px 90px 0px;
+    line-height: 35px;
+    word-spacing: 50px;
+    font-variant: small-caps;
+    font-size: 15px;
+    float: right;
+}
+a.nav{
+    color: #252525;
+}
+a.nav:link{
+    color: #252525;
+    text-decoration: none;
+    font-family: rubiklight;
+    font-size: 17px;
+    font-weight: bold;
+}
+a.nav:hover{
+    color: #d35050;
+    text-decoration: none;
+    font-family: rubiklight;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+a.nav:active{
+    color: #252525;
+    text-shadow: 0px 3px 3px rgb(177, 180, 180);
+    font-family: rubiklight;
+    font-size: 17px;
+    transition: 0.1s;    
+}
+/*------header-------*/

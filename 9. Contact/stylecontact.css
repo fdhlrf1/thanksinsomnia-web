@@ -1,0 +1,259 @@
+@font-face{
+    font-family: rubiklight;
+    src: url(../font/rubikfont/Rubik-Light.ttf);
+}
+@font-face {
+    font-family: rubikmedium;
+    src: url(../font/rubikfont/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family: rubikbold;
+    src: url(../font/rubikfont/Rubik-Bold.ttf);
+}
+@font-face {
+    font-family: rubiksemibold;
+    src: url(../font/rubikfont/Rubik-SemiBold.ttf);
+}
+@font-face {
+    font-family: rubikregular;
+    src: url(../font/rubikfont/Rubik-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:100%; 
+    margin:0 auto;
+    background-color:#FFFFFF; 
+}
+.menu{
+    height: 63px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 8px rgba(211, 207, 207, 0.8);
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 8px 0px 30px 60px;
+    text-align:left;
+    letter-spacing: 3px;
+}
+.tsheader{
+    width: 250px;
+    height: 30px;
+    padding: 20px 200px 0 0;
+}
+
+#choice{
+    padding: 20px 400px 90px 0px;
+    line-height: 35px;
+    word-spacing: 50px;
+    font-variant: small-caps;
+    font-size: 15px;
+    float: right;
+}
+a.nav{
+    color: #252525;
+}
+a.nav:link{
+    color: #252525;
+    text-decoration: none;
+    font-family: rubiklight;
+    font-size: 17px;
+    font-weight: bold;
+}
+a.nav:hover{
+    color: #d35050;
+    text-decoration: none;
+    font-family: rubiklight;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+a.nav:active{
+    color: #252525;
+    text-shadow: 0px 3px 3px rgb(177, 180, 180);
+    font-family: rubiklight;
+    font-size: 17px;
+    transition: 0.1s;    
+}
+
+
+#page{
+    text-align: center;
+    padding-top: 65px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 100%;
+    background-color:#f7f7f7;
+}
+.posisi{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+li.judulpage{
+    color:#252525;
+    font-family: rubiksemibold;
+    font-size: 30px;
+    line-height: 45px;
+}
+li.homepage{
+    color:#252525;
+    font-family: rubikregular;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+a.home{
+    color: #252525;
+    font-family: rubikregular;
+    font-size: 14px;
+    text-decoration: none;
+}
+a.home:hover{
+    color: #d35050;
+    font-family: rubikregular;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.5s;   
+}
+li {
+    list-style-type:none;
+}
+img.icon{
+    height: 8px;
+}
+
+h3{
+    padding-bottom: 30px;
+    font-family: rubikbold;
+    font-size: 30px;
+}
+
+
+.content{
+    margin: 0 auto;
+    width: 1275px;
+    height: 550px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+p{
+    font-family: rubikregular;
+    font-size: 18px;
+}
+p#rtk{
+    padding-bottom: 3px;
+    color: #858585;
+}
+#artikel{
+    width:670px;
+    float: left;
+    padding-right: 50px;
+
+}
+#mohan{
+    width:520px;
+    background-color:#ffffff;
+    float: left;
+  
+}
+
+label{
+    font-family: rubikregular;
+    font-size: 18px;
+    color: #000000;
+}
+input{
+    border: solid 1px #dadada;
+    height: 45px;
+    width:550px;
+   background-color:  #f7f7f7;
+}
+input:focus{
+    outline-color: #d3d3d3;
+    outline-style: solid;
+}
+textarea{
+    border: solid 1px #dadada;
+    width: 550px;
+    height: 100px;
+    background-color:  #f7f7f7;
+}
+textarea:focus{
+    outline-color: #d3d3d3;
+    outline-style: solid;
+}
+
+
+button {
+    cursor: pointer;
+    color: white;
+    background: #d35050;
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-family: rubiksemibold;
+    font-size: 15px;
+}
+button:hover {
+    background: rgb(194, 59, 59)
+
+}
+
+
+
+
+/*-----footer-----*/
+.footer{
+    margin-top: 30px;
+    height: 150px; 
+    background-color: rgba(34, 34, 34, 0.993);
+}
+@font-face {
+    font-family: rubiklight;
+    src: url(../font/rubikfont/Rubik-Light.ttf);
+}
+p.copyright{
+    font-family:  rubiklight;
+    font-size: 16px;
+    color: #fff;
+    float: right;
+    padding-top: 50px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+a.cpr{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+a.cpr:hover{
+    color: #d35050;
+    transition: 0.4s;
+}
+.social-media{
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.posisi{
+    padding-top: 60px;
+    padding-left: 60px;
+}
+a.social-media:hover{
+    background: rgba(34, 34, 34, 0.993)!important;
+    color: rgb(255, 255, 255)!important;
+    transition: 0.4s;
+}
+img.bayar{
+    height: 90px;
+    padding-top: 20px;
+    padding-right: 60px;
+    float: right;
+}
+/*-----footer-----*/

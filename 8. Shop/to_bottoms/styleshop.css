@@ -1,0 +1,269 @@
+@font-face{
+    font-family: rubiklight;
+    src: url(../../font/rubikfont/Rubik-Light.ttf);
+}
+@font-face {
+    font-family: rubikmedium;
+    src: url(../../font/rubikfont/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family: rubikbold;
+    src: url(../../font/rubikfont/Rubik-Bold.ttf);
+}
+@font-face {
+    font-family: rubiksemibold;
+    src: url(../../font/rubikfont/Rubik-SemiBold.ttf);
+}
+@font-face {
+    font-family: rubikregular;
+    src: url(../../font/rubikfont/Rubik-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:100%; 
+    margin:0 auto;
+    background-color:#FFFFFF; 
+}
+.menu{
+    height: 63px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 8px rgba(211, 207, 207, 0.8);
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 8px 0px 30px 60px;
+    text-align:left;
+    letter-spacing: 3px;
+}
+.tsheader{
+    width: 250px;
+    height: 30px;
+    padding: 20px 200px 0 0;
+}
+
+#choice{
+    padding: 20px 400px 90px 0px;
+    line-height: 35px;
+    word-spacing: 50px;
+    font-variant: small-caps;
+    font-size: 15px;
+    float: right;
+}
+a.nav{
+    color: #252525;
+}
+a.nav:link{
+    color: #252525;
+    text-decoration: none;
+    font-family: rubiklight;
+    font-size: 17px;
+    font-weight: bold;
+}
+a.nav:hover{
+    color: #d35050;
+    text-decoration: none;
+    font-family: rubiklight;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+a.nav:active{
+    color: #252525;
+    text-shadow: 0px 3px 3px rgb(177, 180, 180);
+    font-family: rubiklight;
+    font-size: 17px;
+    transition: 0.1s;    
+}
+
+/*-- Judul --*/
+#page{
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 100%;
+    background-color:#f7f7f7;
+
+}
+.posisi{
+    padding-bottom: 20px;
+    display: flex;
+}
+p.judulpage{
+    color:#252525;
+    line-height: 45px;
+    font-family: rubikbold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 270px;
+}
+img.icon{
+    height: 18px;
+    float: left;
+    margin-top: 12px;
+}
+img.icon:hover{
+    background-color: #dad8d8;
+    border-radius: 35%;
+    height: 18px;
+    transition: 1s;
+}
+/*-- Judul --*/
+
+/*-- Konten Pembelian Kanan/Kiri --*/
+h3{
+    font-family: rubikbold;
+    font-size: 30px;
+}
+hr{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.content{
+    margin: 0 auto;
+    width: 1275px;
+    height: 550px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#ordernow2{
+    width:560px;
+    float: left;
+}
+#ordernow{
+    width:600px;
+    background-color:#ffffff;
+    float: left;
+    padding-right: 80px;
+}
+label{
+    font-family: rubikregular;
+    font-size: 18px;
+    color: #000000;
+}
+input{
+    border: solid 1px #dadada;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    height: 45px;
+    width: 600px;
+    background-color:  #f7f7f7;
+}
+input:focus{
+    outline-color: #d3d3d3;
+    outline-style: solid;
+}
+i{
+    color:#d35050;
+}
+input.Choose-Payment{
+  width: 18px;
+  height: 15px;
+}
+.Choose-Payment:focus{
+    outline-color: #ffffff;
+    outline-style: none;
+}
+.Nama-Kurir-Transaksi{
+    font-family: rubikregular;
+    font-style: normal;
+    font-size: 18px;
+    color: #252525;
+}
+.IMG-rtk{
+    width: 5%;
+   float: right;
+   padding-right: 395px;
+    object-fit: contain;
+}
+.IMG-rtk2{
+    width: 5%;
+   float: right;
+   padding-right: 365px;
+    object-fit: contain;
+}
+button {
+    cursor: pointer;
+    color: white;
+    background: #d35050;
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-family: rubiksemibold;
+    font-size: 15px;
+}
+button:hover {
+    background: rgb(194, 59, 59)
+}
+.quantity{
+    width: 50px;
+    border-right: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-left: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.rtk{
+    display: flex;
+}
+/*-- Konten Pembelian Kanan/Kiri --*/
+
+/*-----footer-----*/
+.footer{
+    height: 150px; 
+    background-color: rgba(34, 34, 34, 0.993);
+    margin-top: 300px;
+}
+@font-face {
+    font-family: rubiklight;
+    src: url(../font/rubikfont/Rubik-Light.ttf);
+}
+p.copyright{
+    font-family:  rubiklight;
+    font-size: 16px;
+    color: #fff;
+    float: right;
+    padding-top: 50px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+a.cpr{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+a.cpr:hover{
+    color: #d35050;
+    transition: 0.4s;
+}
+.social-media{
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.posisi{
+    padding-top: 60px;
+    padding-left: 60px;
+}
+a.social-media:hover{
+    background: rgba(34, 34, 34, 0.993)!important;
+    color: rgb(255, 255, 255)!important;
+    transition: 0.4s;
+}
+img.bayar{
+    height: 90px;
+    padding-top: 20px;
+    padding-right: 60px;
+    float: right;
+}
+/*-----footer-----*/

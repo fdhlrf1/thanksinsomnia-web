@@ -1,0 +1,278 @@
+@font-face{
+    font-family: rubiklight;
+    src: url(../font/rubikfont/Rubik-Light.ttf);
+}
+@font-face {
+    font-family: rubikmedium;
+    src: url(../font/rubikfont/Rubik-Light.ttf);
+}
+@font-face {
+    font-family: rubikbold;
+    src: url(../font/rubikfont/Rubik-Bold.ttf);
+}
+@font-face {
+    font-family: rubiksemibold;
+    src: url(../font/rubikfont/Rubik-SemiBold.ttf);
+}
+@font-face {
+    font-family: rubikregular;
+    src: url(../font/rubikfont/Rubik-Regular.ttf);
+}
+/* ------- Navigasi ------ */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:100%; 
+    margin:0 auto;
+    background-color:#FFFFFF; 
+}
+.menu{
+    height: 63px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 8px rgba(211, 207, 207, 0.8);
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 8px 0px 30px 60px;
+    text-align:left;
+    letter-spacing: 3px;
+}
+.tsheader{
+    width: 250px;
+    height: 30px;
+    padding: 20px 200px 0 0;
+}
+#choice{
+    padding: 20px 400px 90px 0px;
+    line-height: 35px;
+    word-spacing: 50px;
+    font-variant: small-caps;
+    font-size: 15px;
+    float: right;
+}
+a.nav{
+    color: #252525;
+}
+a.nav:link{
+    color: #252525;
+    text-decoration: none;
+    font-family: rubiklight;
+    font-size: 17px;
+    font-weight: bold;
+}
+a.nav:hover{
+    color: #d35050;
+    text-decoration: none;
+    font-family: rubiklight;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+a.nav:active{
+    color: #252525;
+    text-shadow: 0px 3px 3px rgb(177, 180, 180);
+    font-family: rubiklight;
+    font-size: 17px;
+    transition: 0.1s;    
+}
+/* ------- Navigasi ------- */
+
+/* ------- Page ------- */
+#page{
+    text-align: center;
+    padding-top: 65px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 100%;
+    background-color:#f7f7f7;
+}
+.posisi{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+li.sale{
+    color:#252525;
+    font-family: rubiksemibold;
+    font-size: 30px;
+    line-height: 45px;
+}
+li.homesale{
+    color:#252525;
+    font-family: rubikregular;
+    font-size: 14px;
+    word-spacing: 3px;
+}
+a.home{
+    color: #252525;
+    font-family: rubikregular;
+    font-size: 14px;
+    text-decoration: none;
+}
+a.home:hover{
+    color: #d35050;
+    font-family: rubikregular;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+li {
+    list-style-type:none;
+}
+img.icon{
+    height: 8px;
+}
+/* ------- Page ------ */
+
+            /* ------- CONTENT ------ */
+
+/* ------- Tabel GARIS ---- */
+.bag{
+    margin: auto;
+    width: 1275px;
+    height: 350px;
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+}
+#garis1{
+    border-right: 1px solid rgb(192, 188, 188);
+    width: 274px;
+    float: left;
+    padding-right: 25px;
+}    
+#garis2{
+    border-right: 1px solid rgb(192, 188, 188);
+    width: 274px;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#garis3{
+    border-right: 1px solid rgb(192, 188, 188);
+    width: 274px;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#garis4{
+    border-right: 0px solid rgb(192, 188, 188);
+    width: 274px;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.garisatas{
+    border-top: 1px solid rgb(192, 188, 188);
+    width: 1275px;
+}
+.garisbawah1{
+    border-bottom: 1px solid rgb(192, 188, 188);
+    width:  1275px;
+    padding-top: 20px;
+    margin: auto;
+}
+.garisbawah2{
+    border-bottom: 1px solid rgb(192, 188, 188);
+    width:  1275px;
+    padding-top: 0px;
+    margin: auto;
+}
+img.item{
+    height:299px;
+}
+/* ------- Tabel GARIS ---- */
+
+/* ------- Style Nama Produk ------ */
+.PosisiFlex{
+    float: left;
+    display: flex;
+    margin: auto;
+}
+a.seller{
+    font-family: rubiklight;
+    font-size: 15px;
+    text-decoration: none;
+    color: #252525;
+    padding-right: 40px;
+}
+a.seller2{
+    font-family: rubiklight;
+    font-size: 15px;
+    text-decoration: none;
+    color: #252525;
+    padding-right: 42px;
+}
+.seller:hover{
+    color: rgb(233, 19, 65);
+    cursor: pointer;
+    transition: 0.4s;
+}
+.seller2:hover{
+    color: rgb(233, 19, 65);
+    cursor: pointer;
+    transition: 0.4s;
+}
+.rtk{
+    font-family: rubiklight;
+    font-size: 15px;
+    color: #d35050;
+    font-weight: bold;
+}
+/* ------- Style Nama Produk ------ */
+
+            /* ------- CONTENT ------ */
+
+
+/*-----footer-----*/
+.footer{
+    height: 150px; 
+    background-color: rgba(34, 34, 34, 0.993);
+}
+@font-face {
+    font-family: rubiklight;
+    src: url(../font/rubikfont/Rubik-Light.ttf);
+}
+p.copyright{
+    font-family:  rubiklight;
+    font-size: 16px;
+    color: #fff;
+    float: right;
+    padding-top: 50px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+a.cpr{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+a.cpr:hover{
+    color: #d35050;
+    transition: 0.4s;
+}
+.social-media{
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.posisi{
+    padding-top: 60px;
+    padding-left: 60px;
+}
+a.social-media:hover{
+    background: rgba(34, 34, 34, 0.993)!important;
+    color: rgb(255, 255, 255)!important;
+    transition: 0.4s;
+}
+img.bayar{
+    height: 90px;
+    padding-top: 20px;
+    padding-right: 60px;
+    float: right;
+}
+/*-----footer-----*/
